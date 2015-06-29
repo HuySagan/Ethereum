@@ -7,7 +7,6 @@ Etherium install for Ubuntu linux distrobution.
 Logged in as Root
 A working internet connection
 
-TEsting123
->>>>>>> origin/master
 
 
+Testing 123 4 sdiwkdw
