@@ -9,4 +9,12 @@ A working internet connection
 
 
 
-Testing 123 4 sdiwkdw
+
+#How to get it
+
+#With git
+
+Get list packages and install git
+
+sudo apt-get install git
+get the script git clone git://github.com/
