@@ -1,6 +1,14 @@
 # Etherium
 EthUbuntu_Install-Scripts
 
-Prerequisite: terminal, working internet connection.
+#Prerequisites
+
+* A console terminal
+
+* Logged in as 'root', use sudo if needed.
+
+* A working internet connection.
+
+
 
 
