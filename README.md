@@ -1,14 +1,13 @@
 # Etherium
-EthUbuntu_Install-Scripts
 
-#Prerequisites
+Etherium install for Ubuntu linux distrobution.
 
-* A console terminal
+#Prerequisite:
 
-* Logged in as 'root', use sudo if needed.
+Logged in as Root
+A working internet connection
 
-* A working internet connection.
-
-
+TEsting123
+>>>>>>> origin/master
 
 
