@@ -1,4 +1,4 @@
-# Project To Have Etherieum Install_Script for Ubuntu
+# Project To Have Ethereum Install Script For Ubuntu
 #Prerequisites
 - A working internet connection
 - Logged in as 'root' 
