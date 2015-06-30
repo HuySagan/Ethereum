@@ -18,7 +18,7 @@
   ```
   then using git command to clone the repo from github.
   ```sh
-  $ git clone git://github.com/HuySagan/Etherium/Script
+  $ git clone git://github.com/HuySagan/Ethereum/Script
 ```
 #How to use 
 ```sh
