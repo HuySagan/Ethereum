@@ -1,9 +1,6 @@
 # Project To Have Ethereum Install Script For Ubuntu
-<<<<<<< HEAD
 
 
-=======
->>>>>>> origin/master
 #Prerequisites
 - A working internet connection
 - Logged in as 'root' 
