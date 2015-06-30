@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Ethereum by HuySagan</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/HuySagan/Ethereum">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/HuySagan/Ethereum/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/HuySagan/Ethereum/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>Ethereum</h1>
+          <p>EthUbuntu_Install-Script</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/HuySagan">HuySagan</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h1>
+<a id="project-to-have-ethereum-install-script-for-ubuntu" class="anchor" href="#project-to-have-ethereum-install-script-for-ubuntu" aria-hidden="true"><span class="octicon octicon-link"></span></a>Project To Have Ethereum Install Script For Ubuntu</h1>
+
+<h1>
+<a id="prerequisites" class="anchor" href="#prerequisites" aria-hidden="true"><span class="octicon octicon-link"></span></a>Prerequisites</h1>
+
+<ul>
+<li>A working internet connection</li>
+<li>Logged in as 'root' </li>
+</ul>
+
+<h1>
+<a id="how-get-it" class="anchor" href="#how-get-it" aria-hidden="true"><span class="octicon octicon-link"></span></a>How get it</h1>
+
+<h1>
+<a id="with-git" class="anchor" href="#with-git" aria-hidden="true"><span class="octicon octicon-link"></span></a>With git</h1>
+
+<ul>
+<li>
+<p>First update Ubuntu repository</p>
+
+<div class="highlight highlight-sh"><pre>$ sudo apt-get install update</pre></div>
+
+<div class="highlight highlight-sh"><pre>$ sudo apt-get install git</pre></div>
+
+<p>then using git command to clone the repo from github.</p>
+
+<div class="highlight highlight-sh"><pre>$ git clone git://github.com/HuySagan/Etherium/Script</pre></div>
+
+<h1>
+<a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to use</h1>
+</li>
+</ul>
+
+<div class="highlight highlight-sh"><pre>$ <span class="pl-c1">cd</span> Script <span class="pl-k">&amp;&amp;</span> ./etherscript</pre></div>
+
+<p>It then should auto generate files for you using Ubuntu repositories. It will also print out text for the user to read. Have a progress bar as well and timer.</p>
+
+<p>This script contains the GPU mining not CPU, will have both when I have more time. Dual GPU only. Trying to keep it as simple as we can. Lots of things can go wrong.</p>
+
+<p>I just realized that the script only install the needed program, as we still need to change drivers for the GPU
+manually. The purpose is to cut down some install time.
+My friend Derek and I spend way too much time struggling and reading the damn guide that we had to take a break.</p>
+
+<blockquote>
+<p>when creating the script, we use chmod to make it executable, the script can either be bash or zsh type.
+More on bash shell and zsh shell later.</p>
+
+<div class="highlight highlight-sh"><pre>$ chmod +x etherscript.sh</pre></div>
+
+<p>The Design Goal is to keep it simple. We are integrating console command into the script and let it run line by line.</p>
+</blockquote>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
