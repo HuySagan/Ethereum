@@ -20,9 +20,7 @@ sudo apt-get install software-properties-common
 sudo add-apt-repository -y ppa:ethereum/ethereum-qt
 sudo add-apt-repository -y ppa:ethereum/ethereum
 sudo add-apt-repository -y ppa:ethereum/ethereum-dev
-sudo apt-get update 
 sudo apt-get upgrade
-sudo apt-get dist-upgrade
 
 #Adding needed software
 
@@ -64,3 +62,6 @@ sudo aticonfig --list-adapters
 #geth --rpccorsdomain localhost 2>> geth.log &
 #ethminer -G // -G for GPU -M for benchmark
 #tail -f geth.log
+
+
+#To Be Continue...
