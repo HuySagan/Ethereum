@@ -42,7 +42,7 @@ sudo apt get install fglx-updates
 #sudo apt get install fglx, Derek having issues with his card, unable to recognize.
 #Driver related maybe???
 
-pause 'Before you go any further, please initialize your gpu, : sudo aticonfig --apdapter=all --initial. Then select the gpu from Hardware system.
+pause 'Before you go any further, please initialize your gpu, : sudo aticonfig --apdapter=all --initial. Then select the gpu from Hardware system.'
 #Important run aticonfig --adapter=all --initial
 sudo aticonfig --adapter=all --initial
 
