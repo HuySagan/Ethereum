@@ -4,8 +4,8 @@ Etherium install for Ubuntu linux distrobution.
 
 #Prerequisite:
 
-Logged in as Root
-A working internet connection
+-Logged in as Root
+-A working internet connection
 
 
 
@@ -16,5 +16,7 @@ A working internet connection
 
 Get list packages and install git
 
-sudo apt-get install git
-get the script git clone git://github.com/
+'''sh
+$ sudo apt-get install git
+$git clone git://github.com/
+'''
